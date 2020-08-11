@@ -7,7 +7,6 @@ const config = {
   BASE_URL: "/"
 }
 
-
 // HEAD SECTION
 
 const getHead = () => {
