@@ -10,8 +10,8 @@ const getMain = () => {
           </div>
           <div class="menu">
             <ul>
-              <li><a href="file:///C:/work/test/index.html">Home</a></li>
-              <li><a href="file:///C:/work/test/about.html">About</a></li>
+              <li><a href="${config.BASE_URL}/index.html">Home</a></li>
+              <li><a href="${config.BASE_URL}/about.html">About</a></li>
               <entries />
             </ul>
           </div>
@@ -54,7 +54,7 @@ const data = (id, exp) => {
 const entries = () => {
   let ent = []
   post.map(val => {
-    let add = `<li><a href="file:///C:/work/test/blog/${val.permalink}.html">${val.title}</a></li>`
+    let add = `<li><a href="${config.BASE_URL}/blog/${val.permalink}.html">${val.title}</a></li>`
     ent.push(add)
   })
   return (`
