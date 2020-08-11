@@ -4,7 +4,7 @@ const $ = (id) => {
 
 
 const config = {
-  BASE_URL: "/"
+  BASE_URL: "https://akarshc.github.io"
 }
 
 // HEAD SECTION
