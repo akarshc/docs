@@ -53,7 +53,7 @@ const data = (id, exp) => {
 const entries = () => {
   let ent = []
   post.map(val => {
-    let add = `<li><a href="${config.BASE_URL}/blog/${val.permalink}.html">${val.title}</a></li>`
+    let add = `<li><a href="${config.BASE_URL}/docs/${val.permalink}.html">${val.title}</a></li>`
     ent.push(add)
   })
   return (`
