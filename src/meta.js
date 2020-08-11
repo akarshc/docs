@@ -9,6 +9,7 @@ const config = {
 
 // HEAD SECTION
 
+
 const getHead = () => {
   return (`
       <meta charset="utf-8">
