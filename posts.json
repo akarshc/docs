@@ -1,0 +1,14 @@
+post = [
+  {
+    "id": 1,
+    "title": "Just example",
+    "permalink": "just-example",
+    "content": "<p>This is how post works</p>"
+  },
+  {
+    "id": 2,
+    "title": "How to create something useful",
+    "permalink": "how-to-create-something-useful",
+    "content": "<p>This is how post works</p>"
+  }
+];

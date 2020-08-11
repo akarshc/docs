@@ -1,0 +1,55 @@
+body {
+  background: #fff;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Open Sans", "Arial";
+}
+
+h1, h2, h3, h4 {
+  font-weight: 400;
+}
+
+.container {
+  max-width: 920px;
+  margin:0 auto;
+}
+
+.row {
+  display: flex;
+  flex:8;
+}
+
+.col {
+  display: flex;
+  padding: 2em;
+  flex-flow: column;
+}
+
+.main {
+  flex: 6;
+}
+
+.header {
+  flex: 2;
+  position: relative;
+}
+
+.header h1 {
+  text-align: right;
+}
+
+.menu ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+.menu ul li {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.foot {
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
