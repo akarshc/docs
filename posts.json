@@ -9,6 +9,6 @@ post = [
     "id": 2,
     "title": "How to create something useful",
     "permalink": "how-to-create-something-useful",
-    "content": "<p>This is how post works</p>"
+    "content": "<p>This is how post works</p><p><b>Let's try something</b> else. Imagine we have a right-aligned navigation element on the very top of our website, but we want it to be centered on medium-sized screens and single-columned on small devices. Easy enough.</p><p>Done. Everything else is just some styling concern. Below is a pen featuring this example. Be sure to go to CodePen and try resizing your windows to see what happens.</p><p><b>This is how post works</b></p><p>Let's try something else. Imagine we have a right-aligned navigation element on the very top of our website, but we want it to be centered on medium-sized screens and single-columned on small devices. Easy enough.</p><p>Done. Everything else is just some styling concern. Below is a pen featuring this example. Be sure to go to CodePen and try resizing your windows to see what happens.</p><p>This is how post works</p><p>Let's try something else. Imagine we have a right-aligned navigation element on the very top of our website, but we want it to be centered on medium-sized screens and single-columned on small devices. Easy enough.</p><p>Done. Everything else is just some styling concern. Below is a pen featuring this example. Be sure to go to CodePen and try resizing your windows to see what happens.</p>"
   }
 ];

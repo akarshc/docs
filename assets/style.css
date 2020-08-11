@@ -2,7 +2,8 @@ body {
   background: #fff;
   margin: 0;
   font-size: 16px;
-  font-family: "Open Sans", "Arial";
+  font-family: "Public Sans", "Arial";
+  color: #444;
 }
 
 h1, h2, h3, h4 {
@@ -10,27 +11,27 @@ h1, h2, h3, h4 {
 }
 
 .container {
-  max-width: 920px;
+  max-width: 1080px;
   margin:0 auto;
 }
 
 .row {
   display: flex;
-  flex:8;
+  flex: 12;
 }
 
 .col {
   display: flex;
-  padding: 2em;
+  padding: 1em;
   flex-flow: column;
 }
 
 .main {
-  flex: 6;
+  flex: 8;
 }
 
 .header {
-  flex: 2;
+  flex: 4;
   position: relative;
 }
 
@@ -45,7 +46,17 @@ h1, h2, h3, h4 {
 
 .menu ul li {
   padding: 5px;
-  font-size: 14px;
+}
+
+.menu ul li a {
+  color: #888;
+  text-decoration: none;
+  transition: .25s ease-out;
+}
+
+.menu ul li a:hover,
+.menu ul li a:active {
+  color: #000;
 }
 
 .foot {

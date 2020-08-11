@@ -33,7 +33,6 @@ const article = (id, exp) => {
   if(exp == 'page')
     return (`
       <page id=${id}></page>
-      <entries />
     `)
   else
     return(`
