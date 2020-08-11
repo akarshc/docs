@@ -62,7 +62,7 @@ const entries = () => {
     `)
 }
 
-const getData = (el) => {
+function getData(el) {
   let id = el === 'post' ? $('entry').id : $('page').id
   let art = []
   let content = ""
